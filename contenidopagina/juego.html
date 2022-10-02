@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego-Ahorcado</title>
+    <link rel="stylesheet" href="../Css/reset.css">
+    <link rel="stylesheet" href="../Css/styles-juego.css">
+</head>
+<body>
+    <main class="contenedor">
+
+        <div class="contenedor-juego">
+            <div class="horca">
+                <img src="../Imagenes/horca.jpg" alt="imagen de una horca" id="imagen-horca">
+            </div>
+    
+            <div class="cuerpo">
+                <img src="../Imagenes/cabeza.png" alt="cabeza-vaquero" id="cabeza">
+                <img src="../Imagenes/torzo.png" alt="cuerpo-vaquero" id="cuerpo">
+                <img src="../Imagenes/brazoizquierda.png" alt="brazo izquierdo del vauqero" id="brazo-izquierdo">
+                <img src="../Imagenes/brazoderecho.png" alt="brazo derecho del vauqero" id="brazo-derecho">
+                <img src="../Imagenes/piernaizquierda.png" alt="pierna izquierda del vaquero" id="pierna-izquierda">
+                <img src="../Imagenes/piernaderecha.png" alt="pierna derecha del vaquero" id="pierna-derecha">
+    
+            </div>   
+        </div>
+        
+
+        <canvas id="letras" width="650" height="150"></canvas>
+
+        <div class="botones">
+            <a href="../contenidopagina/juego.html"><button id="nuevo-juego">Nuevo juego</button></a>
+            <a href="../index.html"><button id="desistir">Desistir</button></a>
+            <button onclick="iniciar()" id="iniciar">Iniciar</button>
+        </div>
+        
+    </main>
+    <footer>
+        <p>Creador: Martinez Rosas Yoxtaltepetl</p>
+    </footer>
+
+    <script src="../Js/script.js"></script>
+</body>
+</html>

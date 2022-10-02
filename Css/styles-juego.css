@@ -1,0 +1,139 @@
+body{
+    background: orangered;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+.contenedor{
+    background-image: url(../Imagenes/fondo1.jpg);
+    width: 100vw;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.contenedor-juego{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 60vh;
+}
+.horca{
+    position: absolute;
+    height: 60vh;
+    width: 300px;
+   z-index: 1;
+}
+
+.cuerpo{
+    position: relative;
+    height: 55vh;
+    width: 300px;
+    z-index: 2;
+}
+
+#cabeza{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    height: 120px;
+    visibility: hidden;
+}
+
+#cuerpo{
+    position: absolute;
+    top: 207px;
+    left: 144px;
+    height: 120px;
+    visibility: hidden;
+}
+
+#brazo-izquierdo{
+    position: absolute;
+    top: 237px;
+    left: 98px;
+    height: 120px;
+    visibility: hidden;
+
+}
+
+#brazo-derecho{
+    position: absolute;
+    top: 232px;
+    left: 214px;
+    height: 120px;
+    visibility: hidden;
+
+}
+
+#pierna-izquierda{
+    position: absolute;
+    top: 310px;
+    left: 147px;
+    height: 120px;
+    visibility: hidden;
+}
+
+#pierna-derecha{
+    position: absolute;
+    top: 312px;
+    left: 188px;
+    height: 120px;
+    visibility: hidden;
+}
+
+#salida{
+    font-size: 55px;
+    color: white;
+}
+
+#imagen-horca{
+    width: 100%;
+    height: 100%;
+}
+
+
+.botones{
+    margin-bottom: 20px;
+
+}
+
+
+#nuevo-juego, #desistir, #iniciar{
+    width: 332px;
+    height: 67px;
+    margin-right: 50px;
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 16px;
+    border-style: none;
+}
+
+#nuevo-juego{
+    background: orangered;
+}
+
+#iniciar{
+    background: green;
+}
+
+#nuevo-juego:hover, #desistir:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orangered;
+    width: 100vw;
+    height: 5vh;
+    font-size: 20px;
+}
